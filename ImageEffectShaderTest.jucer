@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wkHok3" name="ImageEffectShaderTest" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1">
+  <MAINGROUP id="mp41pb" name="ImageEffectShaderTest">
+    <GROUP id="{B7285C39-C0A3-85E0-3663-A4260DD3443A}" name="Source">
+      <FILE id="yJ5ja4" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="wxV3Re" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="KQtBaT" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="JQSrGH" name="SourceComponent.cpp" compile="1" resource="0"
+            file="Source/SourceComponent.cpp"/>
+      <FILE id="DbYoJ2" name="SourceComponent.h" compile="0" resource="0"
+            file="Source/SourceComponent.h"/>
+      <FILE id="ertaDP" name="GameboyShader.h" compile="0" resource="0" file="Source/GameboyShader.h"/>
+      <FILE id="QmMZHU" name="ImageEffectComponent.cpp" compile="1" resource="0"
+            file="Source/ImageEffectComponent.cpp"/>
+      <FILE id="cGDcxc" name="ImageEffectComponent.h" compile="0" resource="0"
+            file="Source/ImageEffectComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ImageEffectShaderTest"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ImageEffectShaderTest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../modules"/>
+        <MODULEPATH id="juce_events" path="../../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
